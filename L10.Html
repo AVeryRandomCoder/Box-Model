@@ -25,12 +25,31 @@
                 background-color: rgb(10, 3, 27);
                 color: white;
             }
+
+            img#RogalDornLeft {
+                float: left;
+            }
+
+            img#RogalDornRight {
+                float: right;
+            }
         </style>
     </head>
     <body>
         <h1>Box Model Example</h1>
         <hr style="width: 100%; height: 2px; background-color: purple;">
         <div class="example1">My content example 1</div>
-        <div class="example2">My content example 2</div>
+        <div class="example2">My content example 2</div>    
+        <h2>Float</h2>
+        <hr style="width: 100%; height: 2px; background-color: purple;">
+        <P>In this paragraph, the image will float to the <br>
+            right of the paragraph and the text will wrap <br>
+            around it
+        </P>
+        <p>
+            <img id="RogalDornLeft" src="/M1/Images/adrian-prado-rogal.jpg" alt="Rogal Dorn Left" width="200" height="200">
+            <img id="RogalDornRight" src="/M1/Images/adrian-prado-rogal.jpg" alt="Rogal Dorn Right" width="200" height="200">
+            This is a dummy used to showcase <br> the properties of dummy
+        </p>
     </body>
 </html>
